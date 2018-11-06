@@ -23,7 +23,7 @@ CONST_DEFAULT_COUNTRY_CODE = 'en'
 CONST_HEADERS = {}
 CONST_HEADERS['User-Agent'] = useragents.CHROME
 
-url_re = re.compile(r'(http(s)?://)?(\w{2}.)?(bongacams\.com)/([\w\d_-]+)')
+url_re = re.compile(r'(http(s)?://)?(\w{2}.)?(en\.bongacams\.com)/([\w\d_-]+)')
 
 amf_msg_schema = validate.Schema(
  {'status': 'success','userData': 
